@@ -31,6 +31,7 @@ export default function RootLayout({
       className={`${andadaPro.variable} ${barlowCondensed.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col">
+        <div id="top" className="max-h-0"></div>
         <svg className="h-0">
           <defs>
             <linearGradient id="gradient">
@@ -40,7 +41,7 @@ export default function RootLayout({
           </defs>
         </svg>
         <Header />
-        <div className="flex flex-col flex-1">
+        <div className="flex flex-col flex-1 max-w-screen overflow-hidden">
           {children}
         </div>
         <Footer />

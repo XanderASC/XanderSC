@@ -27,3 +27,11 @@ export const Input = ({className, ...props}: React.ComponentProps<'input'>) => {
 export const Textarea = ({className, ...props}: React.ComponentProps<'textarea'>) => {
   return <textarea className={cn("border-1 py-1 px-2 text-[1rem] block border-midtone/40 rows-4 rounded-md bg-midtone/10", className)} {...props} />
 }
+
+export const UL = ({className, ...props}: React.ComponentProps<'ul'>) => {
+  return <ul className={cn("text-foreground/80 text-[1.25rem] list-disc pl-6", className)} {...props} />
+}
+
+export const LI = ({className, ...props}: React.ComponentProps<'li'>) => {
+  return <li className={cn(className)} {...props}/>
+}
