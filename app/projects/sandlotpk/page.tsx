@@ -71,7 +71,7 @@ export default function SandlotPKPage() {
         <H2>Development Process</H2>
         <P>To go about resolving these issues, I contacted the owner of the Minecraft server and received a copy of the obstacle course database.</P>
         <P>I taught myself TypeScript, PostgreSQL, and Prisma ORM so that I could build a strictly-typed and efficient Express API to serve data to my frontend. The frontend was a React and Tailwind CSS web app built to fix these key flaws and provide other useful statistics for users to see.</P>
-        <P>I was working on this project during my winter break between College semesters, leaving me with a rather tight window for development. Despite this, I managed to complete it 31 days after its inception.</P>
+        <P>I was working on this project during my winter break between college semesters, leaving me with a rather tight window for development. Despite this, I managed to complete it 31 days after its inception.</P>
         <P>I put extra focus in making the website as easy to use while also being completely accessible for keyboard-only users. I deployed the site on Render.com with plans to move it to a more permanent hosting platform in the future.</P>
       </SubContainer>
     </Container>
@@ -79,7 +79,7 @@ export default function SandlotPKPage() {
     <Container gradient className="pb-[4rem]">
       <SubContainer gradient side="right">
         <H2>Result</H2>
-        <P>The completed web application solves both issues that I had found: players can now easily view the courses that they haven’t completed, and average completion times are accessible for all courses.</P>
+        <P>The completed web application solves both issues that I had found; players can now easily view the courses that they haven’t completed, and average completion times are accessible for all courses.</P>
         <P>The website is also completely responsive for all screen sizes, offering different functionality for mobile devices compared to computers for greater accessibility. I succeeded in making all interactive elements keyboard navigable while also automatically focusing on the most important elements to make the process more intuitive and painless.</P>
       </SubContainer>
     </Container>

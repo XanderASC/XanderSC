@@ -61,8 +61,8 @@ export default function NSCCITKPage() {
     <Container gradient>
       <SubContainer gradient side="right">
         <H2>Problem</H2>
-        <P>As NSCC students, myself and many of my classmates have come up with project ideas that may require the help and skills of someone outside of our field. I imagine the same is true, if not even moreso, for students outside of the IT industry.</P>
-        <P>The difficulty lies in connecting with others who have similar interests and also have the skills that match what is required for the project. Currently, there is no easy way for students to group up with others across programs to work on side projects that they are passionate about, and I think this reason I have identified is responsible. NSCC In The Know is an application built to solve this exact problem.</P>
+        <P>As NSCC students, many of my classmates and I have come up with project ideas that may require the help and skills of someone outside of our field. I imagine the same is true, if not even more so, for students outside of the IT industry.</P>
+        <P>The difficulty lies in connecting with others who have similar interests who also have the skills that match what is required for the project. Currently, there is no easy way for students to group up with others across programs to work on side projects that they are passionate about, and I think this reason I have identified is responsible. NSCC In The Know is an application built to solve this exact problem.</P>
       </SubContainer>
     </Container>
     <Triangle variant="top" side="right"/>
