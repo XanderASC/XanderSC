@@ -14,11 +14,11 @@ export default function XanderSCPage() {
   return <>
     <Triangle variant="top" side="left"/>
     <Container className="space-y-4">
-      <div className="flex gap-4 justify-between items-center">
+      <div className="md:flex gap-4 justify-between items-center">
         <H1>
           Xander&nbsp;SC
         </H1>
-        <div className="flex gap-4 mt-1 items-start flex-wrap justify-end">
+        <div className="flex gap-2 md:gap-4 mt-1 items-start flex-wrap md:justify-end">
           <Skill small><SiReact />React</Skill>
           <Skill small><SiTailwindcss />TailwindCSS</Skill>
           <Skill small><SiNextdotjs />Next.js</Skill>

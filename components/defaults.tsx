@@ -1,19 +1,19 @@
 import { cn } from "@/lib/utils"
 
 export const H1 = ({className, ...props}: React.ComponentProps<'h1'>) => {
-  return <h1 className={cn("text-[5rem]/[6rem] lg:text-[8rem]/[10rem] font-bold font-barlow-condensed", className)} {...props}></h1>
+  return <h1 className={cn("text-[3.5rem]/[3.5rem] sm:text-[5rem]/[5rem] lg:text-[8rem]/[8rem] font-bold font-barlow-condensed", className)} {...props}></h1>
 }
 
 export const H2 = ({className, ...props}: React.ComponentProps<'h1'>) => {
-  return <h2 className={cn("text-[5rem] mb-[-.5rem] font-bold font-barlow-condensed", className)} {...props}></h2>
+  return <h2 className={cn("text-[2.5rem]/[2.5rem] sm:text-[3rem]/[3rem] lg:text-[5rem]/[5rem] font-bold font-barlow-condensed", className)} {...props}></h2>
 }
 
 export const H3 = ({className, ...props}: React.ComponentProps<'h1'>) => {
-  return <h3 className={cn("text-[3rem] mb-[-.25rem] font-barlow-condensed", className)} {...props}></h3>
+  return <h3 className={cn("text-[2rem]/[2rem] sm:text-[2.5rem]/[2.5rem] lg:text-[3rem]/[3rem] font-barlow-condensed", className)} {...props}></h3>
 }
 
 export const P = ({className, ...props}: React.ComponentProps<'p'>) => {
-  return <p className={cn("text-[1.5rem] text-foreground/80", className)} {...props}></p>
+  return <p className={cn("text-[1rem] sm:text-[1.25rem] lg:text-[1.5rem] text-foreground/80", className)} {...props}></p>
 }
 
 export const Label = ({className, ...props}: React.ComponentProps<'label'>) => {
@@ -29,7 +29,7 @@ export const Textarea = ({className, ...props}: React.ComponentProps<'textarea'>
 }
 
 export const UL = ({className, ...props}: React.ComponentProps<'ul'>) => {
-  return <ul className={cn("text-foreground/80 text-[1.25rem] list-disc pl-6", className)} {...props} />
+  return <ul className={cn("text-foreground/80 text-[.875rem] sm:text-[1.25rem] list-disc pl-5 sm:pl-6", className)} {...props} />
 }
 
 export const LI = ({className, ...props}: React.ComponentProps<'li'>) => {

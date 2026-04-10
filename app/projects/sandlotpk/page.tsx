@@ -16,11 +16,11 @@ export default function SandlotPKPage() {
   return <>
     <Triangle variant="top" side="left"/>
     <Container className="space-y-4">
-      <div className="flex gap-4 justify-between items-center">
+      <div className="md:flex gap-4 justify-between items-center">
         <H1>
           Sandlot&nbsp;PK
         </H1>
-        <div className="flex gap-4 mt-1 items-start flex-wrap justify-end">
+        <div className="flex gap-2 md:gap-4 mt-1 items-start flex-wrap md:justify-end">
           <Skill small><SiPostgresql />PostgreSQL</Skill>
           <Skill small><SiExpress />Express</Skill>
           <Skill small><SiReact />React</Skill>

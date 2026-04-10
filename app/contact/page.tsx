@@ -28,22 +28,26 @@ export default function ContactForm() {
 
   return <>
     <Triangle variant="top" side="left" />
-    <Container className="flex justify-between">
+    <Container className="flex flex-col gap-4 md:flex-row justify-between">
       <div className="flex gap-4 flex-col">
         <H1>
-          Contact Me<br />
+          Contact&nbsp;Me<br />
         </H1>
         <div className="flex gap-4">
-          <Button subtleLink newTab href="https://github.com/XanderASC" className="text-black py-4"><SiGithub className="scale-150"/></Button>
-          <Button subtleLink newTab href="https://www.linkedin.com/in/xanderasc/" className="text-black"><Image src={LinkedIn} alt="Xander’s LinkedIn" width={25} className="scale-150" /></Button>
+          <Button subtleLink newTab href="https://github.com/XanderASC" className="text-black py-4">
+            <SiGithub className="scale-150"/>
+          </Button>
+          <Button subtleLink newTab href="https://www.linkedin.com/in/xanderasc/" className="text-black">
+            <Image src={LinkedIn} alt="Xander’s LinkedIn" width={25} className="scale-150" />
+          </Button>
         </div>
       </div>
       <form onSubmit={(e) => onSubmit(e)} className="space-y-4">
         <div className="flex gap-4">
-          <Label htmlFor="name">Name
-          <Input type="text" name="name" placeholder="John Doe" required /></Label>
-          <Label htmlFor="email">Email
-          <Input type="email" name="email" placeholder="johndoe@email.com" required /></Label>
+          <Label htmlFor="name" className="w-1/2">Name
+          <Input type="text" name="name" placeholder="John Doe" required className="w-full" /></Label>
+          <Label htmlFor="email" className="w-1/2">Email
+          <Input type="email" name="email" placeholder="johndoe@email.com" required className="w-full" /></Label>
         </div>
         <Label htmlFor="message">Message</Label>
         <Textarea name="message" placeholder="I would like to..." className="w-full" rows={4} required />

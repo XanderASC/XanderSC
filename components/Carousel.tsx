@@ -27,14 +27,14 @@ export function Carousel({ children, githubUrl, liveUrl }: CarouselProps) {
       </div>
 
       <div className="flex gap-4">
-        {githubUrl && <Button subtleLink newTab href={githubUrl} className="text-black"><SiGithub className="scale-150"/></Button>}
-        {liveUrl && <Button subtleLink newTab href={liveUrl} className="text-black"><ExternalLink className="scale-150"/></Button>}
+        {githubUrl && <Button subtleLink newTab href={githubUrl} className="text-black px-[.75rem]"><SiGithub className="scale-150"/></Button>}
+        {liveUrl && <Button subtleLink newTab href={liveUrl} className="text-black px-[.75rem]"><ExternalLink className="scale-150"/></Button>}
         <div className="flex flex-1 gap-4 justify-center">
-          <Button onClick={goToPrev}>
-            <ChevronLeft className="scale-200 text-black" />
+          <Button onClick={goToPrev} className="px-[.5rem]">
+            <ChevronLeft className="scale-150 text-black" />
           </Button>
-          <Button onClick={goToNext}>
-            <ChevronRight className="scale-200" />
+          <Button onClick={goToNext} className="px-[.5rem]">
+            <ChevronRight className="scale-150" />
           </Button>
         </div>
       </div>

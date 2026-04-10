@@ -18,11 +18,11 @@ export default function NSCCITKPage() {
   return <>
     <Triangle variant="top" side="left"/>
     <Container className="space-y-4">
-      <div className="flex gap-4 justify-between items-center">
+      <div className="md:flex gap-4 justify-between items-center">
         <H1>
           NSCC&nbsp;ITK
         </H1>
-        <div className="flex gap-4 mt-1 items-start flex-wrap justify-end">
+        <div className="flex gap-2 md:gap-4 mt-1 items-start flex-wrap md:justify-end">
           <Skill small><SiPostgresql />PostgreSQL</Skill>
           <Skill small><SiTailwindcss />TailwindCSS</Skill>
           <Skill small><SiTypescript />TypeScript</Skill>

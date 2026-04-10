@@ -13,12 +13,12 @@ import Home from "../images/Xander-SC/Home.png";
 export default function HomePage() {
   return <>
     <Triangle variant="top" side="left" />
-    <Container className="flex justify-between place-items-end">
+    <Container className="space-y-4 md:space-y-0 md:flex justify-between place-items-end">
       <H1>
         Xander&nbsp;SC<br />
         <span className="text-midtone font-[400]">Web&nbsp;Developer</span>
       </H1>
-      <Button className="text-[2rem] mb-[1.5rem]" href="/contact">Contact</Button>
+      <Button className="text-[2rem] ml-auto md:mb-[1rem] lg:mb-[1.5rem]" href="/contact">Contact</Button>
     </Container>
     <Triangle variant="bottom" side="left" />
     <Container gradient>
@@ -46,7 +46,7 @@ export default function HomePage() {
         <H3>
           Frontend
         </H3>
-        <div className="flex gap-x-8 gap-y-4 flex-wrap">
+        <div className="flex gap-x-2 sm:gap-x-4 gap-y-2 md:gap-x-8 md:gap-y-4 flex-wrap">
           <Skill><SiJavascript />JavaScript</Skill>
           <Skill><SiHtml5 />HTML</Skill>
           <Skill><SiCss />CSS</Skill>
@@ -58,7 +58,7 @@ export default function HomePage() {
         <H3>
           Backend
         </H3>
-        <div className="flex gap-x-8 gap-y-4 flex-wrap">
+        <div className="flex gap-x-2 sm:gap-x-4 gap-y-2 md:gap-x-8 md:gap-y-4 flex-wrap">
           <Skill><SiNodedotjs />Node.js</Skill>
           <Skill><SiTypescript />TypeScript</Skill>
           <Skill><SiExpress />Express</Skill>
@@ -74,7 +74,7 @@ export default function HomePage() {
         <H3>
           Database
         </H3>
-        <div className="flex gap-x-8 gap-y-4 flex-wrap">
+        <div className="flex gap-x-2 sm:gap-x-4 gap-y-2 md:gap-x-8 md:gap-y-4 flex-wrap">
           <Skill>MySQL</Skill>
           <Skill><SiMariadb />MariaDB</Skill>
           <Skill><SiMongodb />MongoDB</Skill>
@@ -83,7 +83,7 @@ export default function HomePage() {
         <H3>
           Soft
         </H3>
-        <div className="flex gap-x-8 gap-y-4 flex-wrap">
+        <div className="flex gap-x-2 sm:gap-x-4 gap-y-2 md:gap-x-8 md:gap-y-4 flex-wrap">
           <Skill>Reliability</Skill>
           <Skill>Collaboration</Skill>
           <Skill>Accountability</Skill>
@@ -100,9 +100,9 @@ export default function HomePage() {
       <H2 id="projects" className="mb-4">Highlighted Projects</H2>
       <SubContainer side="left" gradient className="overflow-hidden">
         <Image src={SandlotPK} className="mx-[-4rem] mt-[-4rem] min-w-[calc(100%+8.25rem)]" alt="Sandlot Parkour" />
-        <div className="flex justify-between items-center">
+        <div className="lg:flex justify-between items-center">
           <H3>Sandlot&nbsp;PK</H3>
-          <div className="flex gap-4 mt-1 items-start">
+          <div className="flex gap-2 sm:gap-4 mt-1 items-start flex-wrap">
             <Skill small><SiReact />React</Skill>
             <Skill small><SiPostgresql />PostgreSQL</Skill>
             <Skill small><SiTypescript />TypeScript</Skill>
@@ -118,9 +118,9 @@ export default function HomePage() {
     <Container>
       <SubContainer side="right" className="overflow-hidden">
         <Image src={EditProfile} className="mx-[-4rem] mt-[-4rem] min-w-[calc(100%+8.25rem)]" alt="Sandlot Parkour" />
-        <div className="flex justify-between items-center">
-          <H3>NSCC ITK</H3>
-          <div className="flex gap-4 mt-1 items-start">
+        <div className="lg:flex justify-between items-center">
+          <H3>NSCC&nbsp;ITK</H3>
+          <div className="flex gap-2 sm:gap-4 mt-1 items-start flex-wrap">
             <Skill small><SiNextdotjs />Next.js</Skill>
             <Skill small><SiSupabase />Supabase</Skill>
             <Skill small><SiStripe />Stripe</Skill>
@@ -135,9 +135,9 @@ export default function HomePage() {
     <Container gradient className="pb-[4rem] flex-1">
       <SubContainer side="left" gradient className="overflow-hidden">
         <Image src={Home} className="mx-[-4rem] mt-[-4rem] min-w-[calc(100%+8.25rem)]" alt="Sandlot Parkour" />
-        <div className="flex justify-between items-center">
-          <H3>Xander SC</H3>
-          <div className="flex gap-4 mt-1 items-start">
+        <div className="lg:flex justify-between items-center">
+          <H3>Xander&nbsp;SC</H3>
+          <div className="flex gap-2 sm:gap-4 mt-1 items-start flex-wrap">
             <Skill small><SiNextdotjs />Next.js</Skill>
             <Skill small><SiTailwindcss />TailwindCSS</Skill>
             <Skill small><SiTypescript />TypeScript</Skill>
